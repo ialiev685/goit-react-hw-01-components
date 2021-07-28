@@ -1,0 +1,51 @@
+.profile {
+  width: 512px;
+  margin: 0 auto;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #768696;
+}
+
+.description {
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  color: #39485a;
+}
+
+.tag {
+}
+
+.location {
+}
+
+.stats {
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.stats > li {
+  flex-basis: calc(100% / 3);
+}
+
+.label,
+.quantity {
+  display: block;
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.quantity {
+  font-weight: 700;
+  color: #39485a;
+}
