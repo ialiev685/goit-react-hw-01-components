@@ -1,0 +1,33 @@
+.transactionHhistory {
+  width: 512px;
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  text-align: center;
+
+  /* margin-bottom: 40px; */
+  background-color: #fff;
+}
+
+.transactionHhistory th,
+.transactionHhistory td {
+  padding: 10px;
+}
+
+.thead {
+  background-color: #00bcd5;
+  color: #fff;
+  border-collapse: collapse;
+
+  padding: 10px;
+}
+
+.tbody {
+  color: #adb2b8;
+}
+
+.tbody > tr:nth-child(2n) {
+  background-color: #ecf1f4;
+}

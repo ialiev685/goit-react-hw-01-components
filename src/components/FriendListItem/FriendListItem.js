@@ -1,6 +1,6 @@
 import style from "./FriendListItem.module.css";
 
-const FriendListItem = ({ id, avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   const status = isOnline ? `${style.status} ${style.isOnline}` : style.status;
   return (
     <>
