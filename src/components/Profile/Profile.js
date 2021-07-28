@@ -8,8 +8,8 @@ const Profile = (props) => {
       <div className={style.description}>
         <img src={avatar} alt={name} className="avatar" />
         <p className={style.name}>{name}</p>
-        <p className={style.tag}>{tag}</p>
-        <p className={style.location}>{location}</p>
+        <p className="tag">{tag}</p>
+        <p className="location">{location}</p>
       </div>
 
       <ul className={style.stats}>

@@ -11,15 +11,11 @@
   text-align: center;
 }
 
-.name {
+.name,
+.quantity {
   font-weight: 700;
   color: #39485a;
-}
-
-.tag {
-}
-
-.location {
+  font-size: 24px;
 }
 
 .stats {
@@ -43,9 +39,4 @@
 
 .label {
   margin-bottom: 5px;
-}
-
-.quantity {
-  font-weight: 700;
-  color: #39485a;
 }
