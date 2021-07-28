@@ -1,14 +1,14 @@
 import style from "./Profile.module.css";
 
 const Profile = (props) => {
-  const { name, tag, location, avatar, stats } = props.data;
+  const { name, tag, location, avatar, stats } = props;
 
   return (
     <div className={style.profile}>
       <div className={style.description}>
         <img src={avatar} alt={name} className="avatar" />
         <p className={style.name}>{name}</p>
-        <p className="tag">{tag}</p>
+        <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
 

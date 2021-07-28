@@ -1,13 +1,20 @@
-.profile {
+.statistics {
   width: 512px;
   margin: 0 auto;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  color: #768696;
+  color: #39485a;
 
   background-color: #fff;
+
   margin-bottom: 40px;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
 }
 
 .description {
@@ -21,7 +28,7 @@
   font-size: 24px;
 }
 
-.stats {
+.statList {
   display: flex;
 
   padding: 0;
@@ -30,14 +37,18 @@
   list-style: none;
 }
 
-.stats > li {
-  flex-basis: calc(100% / 3);
+.statList > li {
+  padding: 5px;
+
+  flex-basis: calc(100% / 5);
 }
 
 .label,
-.quantity {
+.percentage {
   display: block;
   text-align: center;
+
+  color: aliceblue;
 }
 
 .label {
