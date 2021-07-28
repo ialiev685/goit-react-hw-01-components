@@ -2,7 +2,6 @@ import generateColor from "./generateColor";
 import style from "./Statistics.module.css";
 
 const Statistics = ({ title, stats }) => {
-  console.log(stats);
   return (
     <section className={style.statistics}>
       <h2 className={style.title}>{title}</h2>
