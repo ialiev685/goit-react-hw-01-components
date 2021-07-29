@@ -1,4 +1,4 @@
-import generateColor from "./generateColor";
+import generateColor from "../../helpers/generateColor";
 import style from "./Statistics.module.css";
 import PropTypes from "prop-types";
 
